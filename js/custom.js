@@ -28,3 +28,34 @@ $(function() {
 		autoPlayHoverPause: true
 	});
 });
+/*****************************
+	CUSTOMERS TESTIMNIALS
+******************************/
+$(function() {
+	$("#customers-testimonials").owlCarousel({
+		items: 1,
+		autoplay: true,
+		smartSpeed: 700,
+		loop: true
+	});
+});
+/*****************************
+	STATS
+******************************/
+$(function(){
+	$('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+/*****************************
+	CLIENTS TESTIMNIALS
+******************************/
+$(function() {
+	$("#clients-list").owlCarousel({
+		items: 6,
+		autoplay: true,
+		smartSpeed: 700,
+		loop: true
+	});
+});
