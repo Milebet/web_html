@@ -59,3 +59,7 @@ $(function() {
 		loop: true
 	});
 });
+/*****************************
+	SCROLL SPY
+******************************/
+$('body').scrollspy({ target: '.appaware-top-nav' });
